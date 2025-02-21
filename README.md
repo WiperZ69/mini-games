@@ -9,8 +9,12 @@
 1. Склонируйте репозиторий на ваш компьютер:
    ```bash
    git clone https://github.com/WiperZ69/mini-games.git
-2. cd mini-games
-3. open index.html
+2. Далее
+   ```bash
+   cd mini-games
+3. Открываем
+   ```bash
+   open index.html
 
 ## Деплой проекта
 Этот проект пока не планируется деплоиться..
