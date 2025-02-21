@@ -1,0 +1,117 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top {
+        background-image: url(/assets/img/star-mobile1.svg), url(/assets/img/star-mobile2.svg), url(/assets/img/star-mobile3.svg);
+        background-position: 37px 64px, 100% 0, calc(100% - 34px) calc(100% - 79px);
+        &__info {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        &__title {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 49px;
+            text-align: center;
+            color: #202027;
+        }
+        &__text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+        }
+        &__button {
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+        }
+        &__stripAnimation {
+            animation: moveStrip 10s infinite linear;
+        }
+        &__animationText {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-size: 16px;
+        }
+        &__star {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .about-games {
+        display: none;
+    }
+    .game {
+        height: 512px;
+    }
+    .mini-games {
+        padding-top: 48px;
+        background-image: none;
+        gap: 24px;
+        padding-bottom: 48px;
+        &__title {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            margin-bottom: 24px;
+        }
+    }
+    .mini-game {
+        max-width: 100%;
+        max-height: 626px;
+        flex-direction: column;
+        &__info {
+            padding: 29px 29px 32px 29px;
+            max-width: 100%;
+        }
+        &__title {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+        }
+        &__text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 32px;
+        }
+        &__button {
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+        }
+        &__images {
+            order: -1;
+            height: 285px;
+        }
+        &__image {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%; 
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 30px;
+            object-fit: cover; 
+            object-position: bottom;
+        }
+    }
+    .footer {
+        &__text {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+    }
+}
